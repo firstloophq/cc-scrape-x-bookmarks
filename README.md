@@ -4,22 +4,26 @@
 
 This project showcases the power of combining Claude Code with the Playwright MCP server to automate web interactions and data extraction. With just a few simple steps, you can extract your complete bookmark collection including real metrics that aren't available through X's standard interface.
 
-## 🚀 Quick Setup
+## 🤖 Automated Setup
+Go To:
+`https://uithub.com/firstloophq/cc-scrape-x-bookmarks`
 
-### Step 1: Add the Playwright MCP Server
+Copy the the entire repo. Give it Claude Code and let it get to work!
 
-First, add the Playwright MCP server to Claude Code:
+
+## 🚀 Manual Setup
+
+### Step 1: Clone and Setup
+
+```bash
+git clone https://github.com/firstloophq/cc-scrape-x-bookmarks.git
+cd cc-scrape-x-bookmarks
+```
+
+### Step 2: Add the Playwright MCP Server
 
 ```bash
 claude mcp add playwright npx @playwright/mcp@latest
-```
-
-### Step 2: Clone and Setup
-
-```bash
-git clone <this-repo>
-cd cc-scrape-x-bookmarks
-bun install
 ```
 
 ### Step 3: Open Claude Code and Point to Instructions
@@ -33,14 +37,7 @@ Load Claude Code and point it to the `CLAUDE.md` file in this repository, which 
 3. **Extract**: Auto-scroll through your bookmarks while capturing complete data
 4. **Combine**: Merge all extracted files into a single comprehensive collection
 
-## 📊 What You Get
 
-- **Complete bookmark collection** (not just the 5-10 visible ones)
-- **Real engagement metrics** (likes, retweets, replies, views, bookmarks)
-- **Full user data** (verification status, display names, profile info)
-- **Media attachments** (photos, videos with URLs)
-- **Accurate timestamps and permalinks**
-- **Automatic deduplication**
 
 ## 🔧 Usage
 
@@ -66,23 +63,3 @@ bun combine-bookmarks.ts
 ## 🙏 Credits
 
 This project is heavily inspired by and builds upon the excellent [Twitter Web Exporter](https://github.com/prinsss/twitter-web-exporter) by [@prinsss](https://github.com/prinsss). All credit for the GraphQL interceptor techniques and approach goes to their original work.
-
-## ⚡ Quick Start Alternative
-
-For the fastest setup, you can use this repository as a Claude Code test example:
-
-1. Visit: https://uithub.com/firstloophq/claude-code-test-runner (this URL makes copying the whole repo contents easy)
-2. Copy the entire repository content
-3. Paste it to Claude Code and tell Claude to set it up
-4. Follow the automated process
-
-This demonstrates Claude Code's ability to understand and execute complex automation tasks from repository examples.
-
-## 🎉 Ready to Start?
-
-1. Add the Playwright MCP server to Claude Code
-2. Clone this repository
-3. Open Claude Code and point it to the `CLAUDE.md` instructions
-4. Follow the automated extraction process
-
-Your complete X bookmark collection will be extracted with full fidelity in just a few minutes!
