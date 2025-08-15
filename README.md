@@ -67,6 +67,17 @@ bun combine-bookmarks.ts
 
 This project is heavily inspired by and builds upon the excellent [Twitter Web Exporter](https://github.com/prinsss/twitter-web-exporter) by [@prinsss](https://github.com/prinsss). All credit for the GraphQL interceptor techniques and approach goes to their original work.
 
+## ⚡ Quick Start Alternative
+
+For the fastest setup, you can use this repository as a Claude Code test example:
+
+1. Visit: https://uithub.com/firstloophq/claude-code-test-runner (this URL makes copying the whole repo contents easy)
+2. Copy the entire repository content
+3. Paste it to Claude Code and tell Claude to set it up
+4. Follow the automated process
+
+This demonstrates Claude Code's ability to understand and execute complex automation tasks from repository examples.
+
 ## 🎉 Ready to Start?
 
 1. Add the Playwright MCP server to Claude Code
@@ -75,4 +86,3 @@ This project is heavily inspired by and builds upon the excellent [Twitter Web E
 4. Follow the automated extraction process
 
 Your complete X bookmark collection will be extracted with full fidelity in just a few minutes!
-# cc-scrape-x-bookmarks
